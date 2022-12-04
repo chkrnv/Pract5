@@ -125,9 +125,9 @@ namespace Pract5
             try
             {
                 triangle.IncreaseLength();
-                inputValue1.Text = $"{triangle.Length1}";
-                inputValue2.Text = $"{triangle.Length2}";
-                inputValue3.Text = $"{triangle.Length3}";
+                inputValue1.Text = triangle.Length1.ToString();
+                inputValue2.Text = triangle.Length2.ToString();
+                inputValue3.Text = triangle.Length3.ToString();
                 Рассчитать_Click(calculate, null);
             }
             catch
