@@ -108,7 +108,7 @@ namespace Pract5
             }
             catch (NullReferenceException ex)
             {
-                MessageBox.Show("сначала создайте треугольник");
+                MessageBox.Show("Cначала создайте треугольник");
             }
             catch (OverflowException ex)
             {
