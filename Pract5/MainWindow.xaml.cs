@@ -87,24 +87,6 @@ namespace Pract5
                     inputValueB.Text = null;
                     inputValueC.Text = null;
                 }
-                else if (inputValueC.Text == null)
-                {
-                    triangle.SetParams(valueA, valueB);
-                    inputValue1.Text = inputValueA.Text;
-                    inputValue2.Text = inputValueB.Text;
-                    Рассчитать_Click(calculate, null);
-
-                    inputValueA.Text = null;
-                    inputValueB.Text = null;
-                }
-                else if (inputValueB.Text == null && inputValueC.Text == null)
-                {
-                    triangle.SetParams(valueA);
-                    inputValue1.Text = inputValueA.Text;
-                    Рассчитать_Click(calculate, null);
-
-                    inputValueA.Text = null;
-                }
             }
             catch (NullReferenceException ex)
             {
